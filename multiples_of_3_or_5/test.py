@@ -7,7 +7,7 @@ class TestFunction(unittest.TestCase):
 
 	def test_get_numbers(self):
 		max_number=1
-		expected_result=[1]
+		expected_result=[0]
 		result=get_numbers(max_number)
 		self.assertEqual(expected_result, result, 'max_number = 1')
 		
