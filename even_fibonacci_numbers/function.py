@@ -7,7 +7,7 @@
 # whose values do not exceed four million, 
 # find the sum of the even-valued terms.
 
-def get_numbers(max_number):
+def get_list_of_fibonacci_numbers(max_number):
 	current_number = 1
 	result = []
 	while current_number < max_number:
@@ -22,7 +22,7 @@ def get_numbers(max_number):
 		
 	return result 
 	
-def get_sum_of_numbers(list_of_numbers):
+def get_sum_of_even_numbers(list_of_numbers):
 	result = 0
 	for x in list_of_numbers:
 		if x % 2 == 0:
