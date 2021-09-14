@@ -19,12 +19,12 @@ class TestFunction(unittest.TestCase):
 		max_number=10
 		expected_result=[0, 3, 5, 6, 9]
 		result=get_numbers(max_number)
-		self.assertEqual(expected_result, result, 'max_number = 0')
+		self.assertEqual(expected_result, result, 'max_number = 10')
 		
 		max_number=20
 		expected_result=[0, 3, 5, 6, 9, 10, 12, 15, 18]
 		result=get_numbers(max_number)
-		self.assertEqual(expected_result, result, 'max_number = 0')
+		self.assertEqual(expected_result, result, 'max_number = 20')
 
 	def test_get_sum_of_numbers(self):
 		list_of_numbers = []
