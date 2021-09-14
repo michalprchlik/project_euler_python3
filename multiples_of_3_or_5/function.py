@@ -4,7 +4,7 @@
 
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
-def get_numbers(max_number):
+def get_list_of_numbers(max_number):
 	result = []
 	for x in range(max_number):
 		if x % 5 == 0 or x % 3 == 0:
