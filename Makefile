@@ -7,3 +7,8 @@ even_fibonacci_numbers:
 	echo $@
 	podman build -f Containerfile -t $@ $@/
 	podman run --rm localhost/$@
+	
+largest_prime_factor:
+	echo $@
+	podman build -f Containerfile -t $@ $@/
+	podman run --rm localhost/$@	
