@@ -12,3 +12,8 @@ largest_prime_factor:
 	echo $@
 	podman build -f Containerfile -t $@ $@/
 	podman run --rm localhost/$@	
+	
+largest_palindrome_product:
+	echo $@
+	podman build -f Containerfile -t $@ $@/
+	podman run --rm localhost/$@		
