@@ -21,4 +21,5 @@ def is_number_palindrome(number):
 		result = True
 	else:
 		result = False
+		
 	return result
