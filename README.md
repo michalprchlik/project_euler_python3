@@ -1,6 +1,16 @@
-# project_euler_python3
+# Overview
 
 Solutions for https://projecteuler.net/archives in Python3
+
+# Run any solution in container
+
+`Makefile` is prepared to start any solution in Container. It will run scripts written in `test.py` and solution written in `application.py`
+
+Example command for running `largest_palindrome_product` in container
+
+```
+make build -B DIRECTORY=largest_palindrome_product
+```
 
 ### multiples_of_3_or_5 - https://projecteuler.net/problem=1
 
@@ -27,3 +37,9 @@ What is the largest prime factor of the number 600851475143 ?
 A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 
 Find the largest palindrome made from the product of two 3-digit numbers.
+
+### smallest_multiple - https://projecteuler.net/problem=5
+
+2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
