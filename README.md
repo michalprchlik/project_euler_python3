@@ -12,6 +12,8 @@ Example command for running `largest_palindrome_product` in container
 make build -B DIRECTORY=largest_palindrome_product
 ```
 
+# Problems solved
+
 ### multiples_of_3_or_5 - https://projecteuler.net/problem=1
  
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
@@ -43,3 +45,25 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+
+### sum_square_difference - https://projecteuler.net/problem=6
+
+The sum of the squares of the first ten natural numbers is
+
+```
+1^2 + 2^2 + ... + 10^2 = 385
+```
+
+The square of the sum of the first ten natural numbers is
+
+```
+(1 + 2 + ... + 10)^2 = 55^2 = 3025
+```
+
+Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is
+
+```
+3025 - 385 = 2640
+```
+
+Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
