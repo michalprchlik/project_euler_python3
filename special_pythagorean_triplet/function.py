@@ -23,13 +23,7 @@ def get_product(array):
 def is_triplet_valid(i, j, k, max_number):
 	sum_number = i + j + k
 	is_valid = True
-	if i == j or i == k or j == k:
-		is_valid = False
-	elif i > j or i > k:
-		is_valid = False
-	elif j < i or j > k:
-		is_valid = False
-	elif sum_number != max_number:
+	if sum_number != max_number:
 		is_valid = False
 	else:
 		square_ij = i ** 2 + j ** 2

@@ -7,18 +7,9 @@ class TestFunction(unittest.TestCase):
 
 	def test_is_triplet_valid_invalid(self):
 		i = 2
-		j = 2
-		k = 3
-		max_number=6
-		result=is_triplet_valid(i, j, k, max_number)
-
-		expected_result=False
-		self.assertEqual(expected_result, result)
-
-		i = 1
 		j = 3
-		k = 3
-		max_number=6
+		k = 4
+		max_number=12
 		result=is_triplet_valid(i, j, k, max_number)
 
 		expected_result=False
@@ -47,7 +38,7 @@ class TestFunction(unittest.TestCase):
 
 		expected_result=6
 		self.assertEqual(expected_result, result)
-		
+
 		array = [3,4,5]
 		result=get_product(array)
 
