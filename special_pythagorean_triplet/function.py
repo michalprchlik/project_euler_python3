@@ -7,14 +7,17 @@
 # Find the product abc.
 
 def find_triplet(max_number):
-	product = None
+	array = []
 	for i in range(1, max_number):
 		for j in range(i + 1 , max_number):
 			for k in range(j + 1, max_number):
 				is_valid = is_triplet_valid(i, j, k, max_number)
 				if is_valid:
-					product = i * j * k
-					print (f'i={i}, j={j}, k={k}, product={product}')
+					array = [i, j, k]
+	return array
+
+def get_product(array):
+	product = array[0] * array[1] * array[2]
 	return product
 
 def is_triplet_valid(i, j, k, max_number):
