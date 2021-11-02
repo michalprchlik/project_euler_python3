@@ -11,7 +11,7 @@ def get_xxx_prime_number(max_number):
 		if is_prime_number(number, prime_number_list):
 			prime_number_list.append(number)
 			count = len(prime_number_list)
-		
+
 	return number 
 
 	

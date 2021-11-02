@@ -24,8 +24,6 @@
 # The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
 # 
 # What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
-from libdnf.transaction import Item
-
 
 def get_result(array, max_numbers):
 	max_product = find_product_row(array, max_numbers)
@@ -41,7 +39,7 @@ def get_result(array, max_numbers):
 	temp_product = find_product_diagonal_reverse(array, max_numbers)
 	if temp_product > max_product:
 		max_product = temp_product
-		
+
 	return max_product
 
 

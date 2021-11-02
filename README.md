@@ -113,6 +113,12 @@ For example, 3^2 + 4^2 = 9 + 16 = 25 = 5^2.
 There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 Find the product abc.
 
+### summation_of_primes - https://projecteuler.net/problem=10
+
+The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+
+Find the sum of all the primes below two million.
+
 ### largest_product_in_a_grid - https://projecteuler.net/problem=11
 
 In the 20×20 grid below, four numbers along a diagonal line have been marked in red.

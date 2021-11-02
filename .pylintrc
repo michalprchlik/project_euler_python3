@@ -1,0 +1,10 @@
+[FORMAT]
+indent-string=\t
+max-line-length=120
+
+[SIMILARITIES]
+min-similarity-lines=10
+
+[MASTER]
+load-plugins=pylint_django
+disable=django-not-configured, missing-function-docstring, missing-module-docstring, unused-wildcard-import, wildcard-import, missing-class-docstring
