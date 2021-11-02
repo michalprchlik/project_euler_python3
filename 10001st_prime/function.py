@@ -2,6 +2,7 @@
 #
 # What is the 10 001st prime number?
 
+
 def get_xxx_prime_number(max_number):
 	number = 1
 	count = 0
@@ -12,13 +13,14 @@ def get_xxx_prime_number(max_number):
 			prime_number_list.append(number)
 			count = len(prime_number_list)
 
-	return number 
+	return number
 
-	
+
 def is_prime_number(number, prime_number_list):
 	result = True
 	for prime_number in prime_number_list:
 		if number % prime_number == 0:
 			result = False
 			break
+
 	return result
